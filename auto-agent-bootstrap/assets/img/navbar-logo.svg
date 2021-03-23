@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="120" viewBox="0 190 500 120">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #fff;
+        font-family: Oswald;
+      }
+    </style>
+  </defs>
+  <text id="AUTO_AGENT" data-name="AUTO AGENT" class="cls-1" transform="matrix(1.817, 0, 0, 1.817, 0, 283.683)">AUTO AGENT</text>
+</svg>

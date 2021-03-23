@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Auto Agent - Sold Cars</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">AUTO AGENT</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars ml-1"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Cars
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Request a car</a>
+              <a class="dropdown-item" href="sold-cars.html">Sold cars</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead-->
+  <header class="masthead" style="background-image: url(assets/img/bmw-garage.jpg); text-align: center;">
+    <div class="container">
+    </div>
+  </header>
+
+  <section class="page-section" id="sold-cars">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Sold cars</h2>
+        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-3 sidebar-column">
+          <div class="sidebar-section">
+            <div class="sidebar-item">
+              <div class="sidebar-content">
+                <a href="#Sedan" class="js-scroll-trigger">Sedan</a>
+                <a href="#fourth">Grand Tourer</a>
+                <a href="#fifth">Sport</a>
+                <a href="#sixth">Cabriolet</a>
+                <a href="#seventh">SUV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 content-section">
+          <span id="Sedan"></span>
+          <h5>Sedan</h5>
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="assets/img/maserati_main.JPG" class="card-img" alt="..."
+                  style="height: 100%; object-fit: cover;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Maserati Quattroporte S</h5>
+                  <p class="card-text">In a beautiful Royal Blue finish, the Quattroporte is a savage undercover. In
+                    1963,
+                    Maserati made a remarkably bold move, introducing the first ever luxury sports sedan. It took a
+                    successful V8 motor racing engine, fitted it to a beautifully designed luxury sedan and then proudly
+                    presented its creation to the world.</p>
+
+                  <a href="maserati-quattroporte-s.html" style="font-weight: bold; text-decoration: underline;">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <!-- Contact form JS-->
+  <script src="assets/mail/jqBootstrapValidation.js"></script>
+  <script src="assets/mail/contact_me.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+
+  <script>
+    $(window).on('resize', function () {
+      var win = $(this); //this = window
+      if (win.width() < 992) {
+
+         $('.content-section').removeClass('col-9'); 
+         $('.content-section').addClass('col-12'); 
+        }
+    });
+
+    $(window).on('resize', function () {
+      var win = $(this); //this = window
+      if (win.width() > 992) {
+
+         $('.content-section').removeClass('col-12'); 
+         $('.content-section').addClass('col-9'); 
+        }
+    });
+  </script>
+</body>
+
+</html>
